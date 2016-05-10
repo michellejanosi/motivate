@@ -8,6 +8,7 @@ The goal of motivate is to give you a quote, a inspiration for youor someone to 
 ###### Requirements:
 - Python
 - Terminal/CMD
+
 ##### UNIX 
 ```sh
 ./motivate
