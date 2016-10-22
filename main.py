@@ -1,6 +1,6 @@
 import sys
 from random import randint
-QUOTES_AMOUNT = 12
+QUOTES_AMOUNT = 13
 quote_id = randint(1,QUOTES_AMOUNT)
 GREEN = '\033[92m'
 BLUE = '\033[94m'
@@ -30,7 +30,7 @@ elif(inp == "2"):
 elif(inp == "3"):
 	nquote = open("quotes/03/"+str(quote_id))
 	print(BLUE+nquote.read())
-	nquote.close()	
+	nquote.close()
 elif(inp == "4"):
 	nquote = open("quotes/04/"+str(quote_id))
 	print(BLUE+nquote.read())
